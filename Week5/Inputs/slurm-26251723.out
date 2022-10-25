@@ -1,0 +1,269 @@
+                      :-) GROMACS - gmx grompp, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/hl4872/comp-lab-class/Week5/Inputs
+Command line:
+  gmx_mpi grompp -f 20ns_T300/adp_t300.mdp -c 20ns_T300/adp.gro -p 20ns_T300/adp.top -o 20ns_T300/adp.tpr
+
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+
+NOTE 1 [file 20ns_T300/adp_t300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 115536660
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Velocities were taken from a Maxwell distribution at 300 K
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+
+GROMACS reminds you: "In the End Science Comes Down to Praying" (P. v.d. Berg)
+
+turning all bonds into constraints...
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 13 Mb of data
+                      :-) GROMACS - gmx grompp, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/hl4872/comp-lab-class/Week5/Inputs
+Command line:
+  gmx_mpi grompp -f 20ns_T400/adp_t400.mdp -c 20ns_T400/adp.gro -p 20ns_T400/adp.top -o 20ns_T400/adp.tpr
+
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+
+NOTE 1 [file 20ns_T400/adp_t400.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 1647201732
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Velocities were taken from a Maxwell distribution at 400 K
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+
+GROMACS reminds you: "Drugs are Bad, mmokay" (South Park)
+
+turning all bonds into constraints...
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 13 Mb of data
+                      :-) GROMACS - gmx grompp, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/hl4872/comp-lab-class/Week5/Inputs
+Command line:
+  gmx_mpi grompp -f 20ns_T500/adp_t500.mdp -c 20ns_T500/adp.gro -p 20ns_T500/adp.top -o 20ns_T500/adp.tpr
+
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+
+NOTE 1 [file 20ns_T500/adp_t500.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -776439116
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Velocities were taken from a Maxwell distribution at 500 K
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+
+GROMACS reminds you: "Art For Arts Sake, Money For Gods Sake" (10 CC)
+
+turning all bonds into constraints...
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 13 Mb of data
+                      :-) GROMACS - gmx grompp, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/hl4872/comp-lab-class/Week5/Inputs
+Command line:
+  gmx_mpi grompp -f 20ns_T600/adp_t600.mdp -c 20ns_T600/adp.gro -p 20ns_T600/adp.top -o 20ns_T600/adp.tpr
+
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+
+NOTE 1 [file 20ns_T600/adp_t600.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -376303015
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Velocities were taken from a Maxwell distribution at 600 K
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+
+GROMACS reminds you: "The most exciting phrase to hear in science, the one that heralds new discoveries, is not "Eureka" but "That's funny..."." (Isaac Asimov)
+
+turning all bonds into constraints...
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 13 Mb of data
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 4
+slots that were requested by the application:
+
+  gmx_mpi
+
+Either request fewer slots for your application, or make more slots
+available for use.
+
+A "slot" is the Open MPI term for an allocatable unit where we can
+launch a process.  The number of slots available are defined by the
+environment in which Open MPI processes are run:
+
+  1. Hostfile, via "slots=N" clauses (N defaults to number of
+     processor cores if not provided)
+  2. The --host command line parameter, via a ":N" suffix on the
+     hostname (N defaults to 1 if not provided)
+  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)
+  4. If none of a hostfile, the --host command line parameter, or an
+     RM is present, Open MPI defaults to the number of processor cores
+
+In all the above cases, if you want Open MPI to default to the number
+of hardware threads instead of the number of processor cores, use the
+--use-hwthread-cpus option.
+
+Alternatively, you can use the --oversubscribe option to ignore the
+number of available slots when deciding the number of processes to
+launch.
+--------------------------------------------------------------------------
